@@ -8,6 +8,12 @@
   margin-bottom: 24px;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 img {
   box-sizing: border-box;
   border-radius: 28px;
@@ -16,7 +22,7 @@ img {
 }
 
 #page {
-  padding: 88px 80px 201px;
+  padding: 88px 80px 137px;
   max-width: 1120px;
   max-height: 2990px;
   font-family: "Open Sans", sans-serif;
@@ -99,12 +105,13 @@ p {
 }
 
 footer {
+  margin-top: 65px;
   text-align: center;
 }
 
 footer img {
-  vertical-align: text-bottom;
-  max-width: 12px;
-  max-height: 12px;
-  margin-bottom: 1px;
+  vertical-align: middle;
+  max-width: 16px;
+  max-height: 16px;
+  margin-bottom: 2px;
 }
