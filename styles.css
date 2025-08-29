@@ -4,7 +4,6 @@
 }
 
 #description_img img {
-  width: 100%;
   margin-bottom: 24px;
 }
 
@@ -15,7 +14,6 @@ body{
 }
 
 img {
-  box-sizing: border-box;
   border-radius: 28px;
   width: 100%;
   margin-bottom: 20px;
